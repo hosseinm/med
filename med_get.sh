@@ -4,14 +4,14 @@
 echo "Downloading Motion Emotion Dataset (MED)..."
 
 
-if [ -f "med.zip" ]; then
+if [ -f "Motion_Emotion_Dataset.zip" ]; then
    rm med.zip
 fi
 
-wget https://www.dropbox.com/s/3ahlusgvyjsjnou/src_HOT.zip
+wget https://www.dropbox.com/s/kgb6wqeuxud7r5t/Motion_Emotion_Dataset.zip
 
 echo "Unzipping..."
-tar -xf src_HOT.zip && rm -f src_HOT.zip
+tar -xf Motion_Emotion_Dataset.zip && rm -f Motion_Emotion_Dataset.zip
 
 echo "Done."
 
