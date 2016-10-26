@@ -1,0 +1,16 @@
+behavior:
+1:Panic
+2:Fight
+3:Congestion
+4:Obstacle or abnormal object
+5:Neutral
+
+
+
+Emotion:
+1:Angry
+2:Happy
+3:Excited
+4:Scared
+5:Sad
+6:Neutral
